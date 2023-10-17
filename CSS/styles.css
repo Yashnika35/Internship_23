@@ -1,0 +1,71 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+img {
+    max-width: 150px; /* Adjust the image size as needed */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Remove underlines from links and buttons */
+.contact-info a,
+.info-button {
+    text-decoration: none;
+}
+
+.slideshow-container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 0 auto;
+}
+
+/* Style for the slides (images) */
+.slides {
+    display: flex;
+    transition: transform 0.5s;
+}
+
+.slides img {
+    width: 100%; /* Ensure images fill the container horizontally */
+    height: auto;
+}
